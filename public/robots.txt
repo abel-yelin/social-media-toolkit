@@ -1,0 +1,21 @@
+User-agent: *
+Allow: /
+
+# Sitemaps
+Sitemap: https://www.aicomments.online/sitemap.xml
+
+# Disallow admin areas
+Disallow: /admin/
+Disallow: /dashboard/
+Disallow: /api/
+
+# Allow important pages
+Allow: /instagram-giveaway-picker
+Allow: /youtube-comment-picker
+Allow: /tiktok-comment-picker
+Allow: /facebook-comment-picker
+Allow: /pricing
+Allow: /blog
+
+# Crawl delay
+Crawl-delay: 1

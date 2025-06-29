@@ -111,7 +111,7 @@ export default function Home() {
               transition={{ duration: 0.8, type: "spring" }}
               viewport={{ once: true }}
             >
-              Work smarter, not harder, using your Own<br />
+              Work smarter, not harder, with professional<br />
               <motion.span
                 className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-purple-600"
                 animate={{
@@ -120,7 +120,7 @@ export default function Home() {
                 transition={{ duration: 3, repeat: Number.POSITIVE_INFINITY }}
                 style={{ backgroundSize: "200% auto" }}
               >
-                Giveaway Picker
+                AI Comment Tools
               </motion.span>
             </motion.h2>
             <motion.p
@@ -130,7 +130,7 @@ export default function Home() {
               transition={{ delay: 0.3, duration: 0.8 }}
               viewport={{ once: true }}
             >
-              EasyComment specializes in giveaway management with its powerful giveaway picker tools, designed to enhance engagement and streamline contests across social media platforms.
+              AI Comments specializes in social media comment management, providing powerful AI-driven tools designed to enhance social media engagement and streamline cross-platform comment analysis and fan interaction workflows.
             </motion.p>
 
             <motion.div
@@ -165,7 +165,7 @@ export default function Home() {
             >
               <h2 className="text-5xl font-bold text-gray-900 mb-8">
                 Get and Export All User Comments<br />
-                on Social Media
+                from Social Media Platforms
               </h2>
             </motion.div>
 
@@ -281,7 +281,7 @@ export default function Home() {
               <AnimatedSection direction="left" delay={0.3}>
                 <div className="space-y-8">
                   <h3 className="text-3xl font-bold text-gray-900">Built for developers</h3>
-                  <p className="text-gray-600 text-lg">Multiple Ways to Notify your Followers of Winning Results</p>
+                  <p className="text-gray-600 text-lg">Multiple ways to notify your followers of winning results and enhance user engagement</p>
 
                   <StaggeredContainer
                     className="space-y-4"

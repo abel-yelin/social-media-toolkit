@@ -162,7 +162,7 @@ export function EnhancedHero() {
                 transition={{ duration: 4, repeat: Number.POSITIVE_INFINITY }}
                 style={{ backgroundSize: "200% auto" }}
               >
-                Comment
+                Smart AI
               </motion.span>
               <motion.span
                 className="block text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-purple-500"
@@ -170,7 +170,7 @@ export function EnhancedHero() {
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ delay: 0.3, duration: 0.8 }}
               >
-                Made
+                Comment
               </motion.span>
               <motion.span
                 className="block text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-pink-500"
@@ -178,7 +178,7 @@ export function EnhancedHero() {
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ delay: 0.6, duration: 0.8 }}
               >
-                Easy
+                Management
               </motion.span>
             </motion.h1>
 
@@ -188,36 +188,36 @@ export function EnhancedHero() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.9, duration: 0.8 }}
             >
-              EasyComment provides users with a series of social media and comment services such as{" "}
+              AI Comments provides comprehensive social media comment management solutions including{" "}
               <motion.span
                 className="font-semibold text-purple-600"
                 whileHover={{ scale: 1.05 }}
               >
-                giveaway picker
+                smart giveaway picker
               </motion.span>,{" "}
               <motion.span
                 className="font-semibold text-blue-600"
                 whileHover={{ scale: 1.05 }}
               >
-                ai comment generator
+                AI comment generator
               </motion.span>,{" "}
               <motion.span
                 className="font-semibold text-green-600"
                 whileHover={{ scale: 1.05 }}
               >
-                ai post generator
+                comment data export
               </motion.span>,{" "}
               <motion.span
                 className="font-semibold text-pink-600"
                 whileHover={{ scale: 1.05 }}
               >
-                ai comment summary
+                intelligent analytics
               </motion.span>,{" "}
               <motion.span
                 className="font-semibold text-indigo-600"
                 whileHover={{ scale: 1.05 }}
               >
-                mockup generation
+                multi-platform support
               </motion.span>, etc.
             </motion.p>
 

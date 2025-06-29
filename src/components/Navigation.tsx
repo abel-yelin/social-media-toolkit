@@ -113,11 +113,11 @@ export function Navigation() {
           >
             <Menu className="h-6 w-6 text-gray-600 group-hover:text-blue-600 transition-colors" />
             <div className="flex items-center space-x-2">
-              <div className="w-8 h-8 bg-blue-600 rounded flex items-center justify-center group-hover:bg-blue-700 transition-colors">
-                <span className="text-white font-bold text-sm">E</span>
+              <div className="w-8 h-8 bg-gradient-to-br from-blue-600 to-purple-600 rounded-lg flex items-center justify-center group-hover:from-blue-700 group-hover:to-purple-700 transition-all duration-300 shadow-md">
+                <Bot className="h-4 w-4 text-white" />
               </div>
               <span className="font-bold text-lg text-gray-900 group-hover:text-blue-600 transition-colors">
-                asyComment
+                AI <span className="text-purple-600">Comments</span>
               </span>
             </div>
           </motion.div>
